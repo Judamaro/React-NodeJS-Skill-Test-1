@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Itim', cursive;
+    overflow: hidden;
+    margin: 0;
+}
+
+/*-----------------Body Alternativo----------------*/
+.o-body-altern
+{
+    display: flex;
+    flex-flow: column wrap;
+}
+/*-------------------------------------------------*/
+
+
+/*------------Contenedor Principal Card------------*/
+.o-main-container-card
+{
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 70vh;
+    min-height: 70vh;
+    width: 18vw;
+    min-width: 18vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.o-main-container-card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+/*-------------------------------------------------*/
+
+
+/*------------Contenedor Principal Tabla-----------*/
+.o-table-container
+{
+    width: 80vw;
+    min-width: 80vw;
+    height: 80vh;
+    min-height: 50vh;
+    max-width: 820vh;
+    display: flex;
+    flex-direction: column;
+}
+/*-------------------------------------------------*/
+
+
+/*----------------------Tabla----------------------*/
+table
+{
+    font-family: 'Itim', cursive;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+ }
+/*-------------------------------------------------*/
+
+
+/*----------------Contenedor Imagen----------------*/
+.o-main-container-card .o-img-container
+{
+    margin: 0 6.5rem 0 6.5rem;
+    min-width: 35%;
+}
+/*-------------------------------------------------*/
+
+
+/*-----------------Contenedor Texto----------------*/
+.o-main-container-card .o-text
+{
+    margin: 0 7rem 0 7rem;
+    min-width: 40%;
+}
+/*-------------------------------------------------*/
+
+
+/*----------------Contenedor Inputs----------------*/
+.o-main-container-card .o-input-data
+{
+    margin: 0 2.5rem 0 2.5rem;
+    padding: 0 0 0 1rem;
+    width: 70%;
+    min-width: 70%;
+    height: 4%;
+    min-height: 5%;
+    border-radius: 8px;
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+    color: rgba(0,0,0,0.2);
+}
+
+::-webkit-input-placeholder
+{
+    color:rgba(0,0,0,0.5);
+    font-size: 18px;
+}
+/*-------------------------------------------------*/
+
+
+/*-------------------Botón General-----------------*/
+.o-main-container-card .o-btn-general
+{
+    border-radius: 8px;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    color: rgba(0,0,0,0.7);
+    margin: 5% 15% 0 15%;
+    width: 70%;
+    min-width: 70%;
+    height: 5%;
+    min-height: 5%;
+}
+/*-------------------------------------------------*/
+
+
+/*------------------Botón Signout------------------*/
+.o-main-container-card .o-btn-signout
+{
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    width: 40%;
+    min-width: 30%;
+    color: rgba(0,0,0,0.7);
+    border-radius: 8px;
+    margin-top: 15%;
+    margin-bottom: 0;
+    margin-right: 50%;
+    align-self: flex-end;
+}
+/*-------------------------------------------------*/
+
+/*--------Container Botónes Editar/Eliminar--------*/
+.o-btn-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    min-width: 80vw;
+    height: 10vh;
+    padding: 3rem 0 0 0;
+}
+/*-------------------------------------------------*/
+
+
+/*--------------Botónes Editar/Eliminar------------*/
+.o-btn-container .o-btn-general
+{
+    border-radius: 8px;
+    font-family: 'Itim', cursive;
+    font-size: 18px;
+    color: rgba(0,0,0,0.7);
+    width: 15rem;
+    min-width: 15rem;
+    height: 3rem;
+    max-height: 3rem;
+    min-width: 1rem;
+}
+/*-------------------------------------------------*/
+
+
+/*-------------------Botón Modificar---------------*/
+#modify
+{
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+/*-------------------------------------------------*/
+
+
+/*-------------Container Principal Tabla-----------*/
+.o-main-container-table
+{
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+/*-------------------------------------------------*/
+
+
+/*--------------------Botón Home-------------------*/
+#btn-home
+{
+    padding:0 90rem 5rem 0;
+}
+/*-------------------------------------------------*/
+
+
+/*--------------------Botón Home-------------------*/
+#btn-home-2
+{
+    padding-right: 105rem;
+    padding-bottom: 6rem;
+}
+/*-------------------------------------------------*/
